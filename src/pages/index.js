@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
 
 import "./global.css"
+
+import Header from "../components/Header"
 // import SEO from "../components/seo"
 
 const IndexPage = () => {
@@ -21,8 +23,8 @@ const IndexPage = () => {
   return (
     <div>
       {/* <SEO title="Home" /> */}
-      <h1>Jeff Moraes</h1>
-      <h2>{scroll}</h2>
+      <Header />
+      {/* <h2>{scroll}</h2> */}
     </div>
   )
 }
